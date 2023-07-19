@@ -85,6 +85,7 @@ b{
     border-radius: 50%;
     left: 35%;
     top: 12%;
+    justify-content: space-between;
     background: linear-gradient(45deg, #7f00ff, pink);
     animation: object2 6s linear infinite;
 }
@@ -102,9 +103,14 @@ b{
 }
 .cols{
     width: 50%;
+    /* justify-content: left; */
 }
 .cols0{
     z-index: 5;
+}
+.cols1{
+    /* justify-content: left; */
+    align-items: left;
 }
 .topline{
     display: block;
