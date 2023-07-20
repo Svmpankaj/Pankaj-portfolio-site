@@ -103,14 +103,9 @@ b{
 }
 .cols{
     width: 50%;
-    /* justify-content: left; */
 }
 .cols0{
     z-index: 5;
-}
-.cols1{
-    /* justify-content: left; */
-    align-items: left;
 }
 .topline{
     display: block;
